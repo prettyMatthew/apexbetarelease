@@ -1,0 +1,15 @@
+Flask
+Flask-SQLAlchemy
+SQLAlchemy
+Flask-Migrate
+alembic
+Flask-SocketIO
+python-socketio
+eventlet
+authlib
+Flask-Cors
+Werkzeug
+markdown
+Pillow
+pytz
+python-dotenv
