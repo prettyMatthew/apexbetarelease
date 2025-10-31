@@ -1,3 +1,26 @@
+pip3 install Flask==3.0.3 Flask-SocketIO==5.3.6 Flask-SQLAlchemy==3.1.1 Flask-Migrate==4.0.5 Flask-Cors==4.0.1 Authlib==1.3.1 Werkzeug==3.0.4 SQLAlchemy==2.0.34 markdown==3.7 Pillow==10.4.0 pytz==2024.2 eventlet==0.36.1 greenlet==3.1.1
+
+sudo fallocate -l 1G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+
+# venv 활성화
+source ~/Desktop/apex_server/venv/bin/activate
+
+# requests 설치
+pip install requests
+
+
+python server.py
+
+
+
+
+
+
+
+
 라즈베리파이에서 Flask 서버 실행하는 방법
 🔹 1️⃣ Python & pip 준비
 sudo apt update && sudo apt upgrade -y
